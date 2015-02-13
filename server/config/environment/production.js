@@ -15,7 +15,7 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri:    'mongodb://ebladev:ebladev@ds041821.mongolab.com:41821/ebladev' || process.env.MONGOLAB_URI ||
+    uri:    'mongodb://ebla:ebla@ds043981.mongolab.com:43981/ebla' || process.env.MONGOLAB_URI ||
             process.env.MONGOHQ_URL ||
             process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME ||
             'mongodb://localhost/eblaapp'
