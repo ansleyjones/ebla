@@ -1,0 +1,396 @@
+@import url(bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.css);
+@import url(font-awesome/css/font-awesome.css);
+/**
+ * App-wide Styles
+ */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+.trash {
+  color: #d15b47; }
+
+body {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 300;
+  color: #333333; }
+
+.container {
+  margin-top: 200px; }
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 60px 0 20px;
+  border-bottom: 1px solid #eeeeee; }
+
+.main {
+  margin-top: 50px; }
+
+/* NAV STYLES */
+.myNav {
+  width: 100%;
+  margin-top: 15px; }
+
+.navbar {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  top: 0px; }
+  .navbar li {
+    margin-top: 20px; }
+
+.navbar-main {
+  float: left; }
+
+.navbar-right {
+  float: right;
+  margin-right: 30%; }
+
+.navbar-left {
+  float: left;
+  margin-left: 15px; }
+  .navbar-left .yellow {
+    color: white; }
+
+.navbar-text {
+  margin-top: 10px; }
+
+.navbar-collapse.collapse {
+  display: inline-block;
+  margin-right: 40px; }
+
+.myLogo {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 46.5%; }
+  .myLogo a img {
+    width: 120px; }
+
+.aboutEbla {
+  text-align: center; }
+  .aboutEbla h1 {
+    text-align: center;
+    margin-top: 0px; }
+  .aboutEbla h2 {
+    text-align: center; }
+  .aboutEbla i {
+    font-size: 45px; }
+  .aboutEbla .tagIcon {
+    color: #00cded; }
+  .aboutEbla .reqIcon {
+    color: #deb000; }
+  .aboutEbla .tradeIcon {
+    color: #4cce55; }
+  .aboutEbla p {
+    font-size: 20px;
+    padding-left: 22px;
+    padding-right: 22px; }
+
+/* HEADER STYLES */
+.myHeader {
+  height: 760px;
+  min-width: 100%;
+  background-image: url('http://thefreshexchangeblog.com/assets/Studio_Inspiration_01.jpg');
+  background-size: cover;
+  opacity: .75; }
+
+.logo {
+  position: absolute;
+  top: 230px;
+  left: 28%;
+  z-index: 100; }
+
+/* SEARCHBAR */
+.searchBar {
+  text-align: center; }
+  .searchBar ul {
+    display: inline-block; }
+    .searchBar ul li {
+      display: inline-block;
+      list-style-type: none;
+      margin-left: 12px;
+      margin-right: 12px; }
+      .searchBar ul li #allSearch {
+        padding: 5px;
+        font-size: 18px;
+        color: #333333; }
+        .searchBar ul li #allSearch:hover {
+          text-decoration: none;
+          color: #deb000; }
+
+.profs {
+  text-align: center;
+  margin-top: 30px;
+  max-height: 500px;
+  overflow-y: scroll; }
+  .profs ul {
+    margin-bottom: 36px; }
+    .profs ul li {
+      list-style-type: none;
+      text-transform: uppercase; }
+  .profs #mainName {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey; }
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #E5E5E5; }
+
+.matchLink {
+  color: #00cded; }
+  .matchLink:hover {
+    color: #deb000; }
+
+p {
+  font-size: 17px;
+  margin-bottom: 0px; }
+
+li {
+  font-size: 17px; }
+
+.matcher {
+  height: 600px; }
+  .matcher .firstMatch {
+    width: 200px;
+    padding: 0px;
+    float: left;
+    vertical-align: top;
+    text-align: center; }
+  .matcher .secondMatch {
+    width: 200px;
+    padding: 0px;
+    float: right;
+    vertical-align: top;
+    text-align: center; }
+  .matcher .stats {
+    margin-top: 280px;
+    text-align: center; }
+    .matcher .stats input {
+      margin-bottom: 10px; }
+
+.theirPings {
+  text-align: right; }
+
+.pinged ul {
+  padding: 0px; }
+  .pinged ul li {
+    list-style-type: none;
+    padding: 0px; }
+
+/* MYPROFILE */
+/* TAB STUFF */
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  font-size: 18px;
+  color: #333333; }
+  .nav-justified > li > a:hover, .nav-tabs.nav-justified > li > a:hover {
+    color: #deb000; }
+
+.tab-content > .active {
+  padding-top: 15px; }
+
+.myPings ul {
+  padding-left: 5px; }
+.myPings li {
+  list-style-type: none; }
+.myPings a {
+  color: #00cded; }
+  .myPings a:hover {
+    color: #deb000; }
+
+.profStuff h1 {
+  margin-top: 5px;
+  text-align: center; }
+.profStuff h2 {
+  margin-top: -5px;
+  text-align: center; }
+.profStuff .trades {
+  padding-left: 10px;
+  margin: 0px; }
+  .profStuff .trades li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px; }
+.profStuff .editProf {
+  font-size: 15px;
+  padding: 5px;
+  color: #00cded;
+  border: 1px solid #00cded; }
+  .profStuff .editProf:hover {
+    color: #deb000;
+    border: 1px solid #deb000;
+    text-decoration: none; }
+.profStuff form {
+  padding-top: 20px; }
+
+.profItems section {
+  margin-bottom: 25px; }
+
+.profItems {
+  text-align: center; }
+  .profItems .itemImg {
+    text-align: center; }
+  .profItems .title {
+    margin: 0px;
+    float: left; }
+  .profItems .price {
+    float: right;
+    padding-right: 10%; }
+  .profItems .avail {
+    float: left;
+    clear: both; }
+
+.myPinged ul {
+  /* width: 80%; */
+  /* margin: auto; */
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 40px; }
+  .myPinged ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 16px; }
+.myPinged a {
+  color: #00cded; }
+  .myPinged a:hover {
+    color: #deb000; }
+.myPinged .pingedRight {
+  float: right;
+  padding-right: 50px;
+  vertical-align: top; }
+  .myPinged .pingedRight img {
+    max-width: 90px;
+    max-height: 85px; }
+
+.tradeReqsTab {
+  width: 80%;
+  margin: auto;
+  /* ACCORDION STUFF */ }
+  .tradeReqsTab a {
+    color: #333333; }
+    .tradeReqsTab a:hover {
+      color: #deb000;
+      text-decoration: none;
+      cursor: pointer; }
+  .tradeReqsTab li {
+    margin-bottom: 10px; }
+  .tradeReqsTab .createRequest {
+    font-size: 24px;
+    font-weight: 400;
+    color: #00cded;
+    padding: 5px;
+    border: 1px solid #00cded; }
+    .tradeReqsTab .createRequest:hover {
+      color: #deb000;
+      border: 1px solid #deb000; }
+  .tradeReqsTab .reqContact {
+    list-style-type: none;
+    padding-left: 8px;
+    margin: 0px; }
+    .tradeReqsTab .reqContact li {
+      margin: 0px; }
+  .tradeReqsTab .reqFilters {
+    font-weight: 400;
+    border-bottom: 1px solid lightgrey; }
+    .tradeReqsTab .reqFilters span a {
+      color: #00cded;
+      font-weight: 400; }
+      .tradeReqsTab .reqFilters span a:hover {
+        color: #deb000; }
+  .tradeReqsTab .accept {
+    color: #333333;
+    border: 1px solid #333333;
+    padding: 5px; }
+    .tradeReqsTab .accept:hover {
+      color: #4cce55;
+      border: 1px solid #4cce55;
+      text-decoration: none; }
+  .tradeReqsTab .decline {
+    color: #333333;
+    border: 1px solid #333333;
+    padding: 5px; }
+    .tradeReqsTab .decline:hover {
+      color: #ff2600;
+      border: 1px solid #ff2600;
+      text-decoration: none; }
+  .tradeReqsTab .noMatch {
+    font-size: 16px; }
+  .tradeReqsTab .receivedHeader {
+    margin-top: 25px; }
+  .tradeReqsTab .pendingTrades li a {
+    color: #00cded; }
+    .tradeReqsTab .pendingTrades li a:hover {
+      color: #deb000; }
+  .tradeReqsTab .pendingTrades li .tradeComp {
+    float: right;
+    font-weight: 400;
+    margin-right: 30%;
+    color: #4cce55; }
+  .tradeReqsTab .panel-default {
+    position: relative;
+    border: none; }
+    .tradeReqsTab .panel-default .panel-heading {
+      background-color: white;
+      position: absolute;
+      right: 35%;
+      top: -20px;
+      padding: 0; }
+
+.recMess {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px; }
+  .recMess .from {
+    float: left;
+    width: 25%; }
+    .recMess .from a {
+      color: #00cded; }
+      .recMess .from a:hover {
+        color: #deb000; }
+
+.rechead {
+  font-weight: 400;
+  text-decoration: underline; }
+
+/* SINGLE PROFILE */
+#itemHead {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 25px; }
+
+.itemIcons {
+  text-align: center;
+  display: block;
+  clear: both;
+  font-size: 25px;
+  margin-left: -12%; }
+  .itemIcons span {
+    margin-left: 8px;
+    margin-right: 8px; }
+  .itemIcons .heartSym {
+    color: #333333; }
+    .itemIcons .heartSym:hover {
+      color: #ff2600; }
+  .itemIcons .tagSym {
+    color: #333333; }
+    .itemIcons .tagSym:hover {
+      color: #00cded; }
+  .itemIcons .eyeSym {
+    color: #333333; }
+    .itemIcons .eyeSym:hover {
+      color: #deb000; }
+
+footer {
+  min-height: 45px; }
+
+/* @import 'modal/modal.scss'; */
